@@ -1,4 +1,4 @@
 #!/bin/bash
 
 chmod +x lmx
-./lmx --algo ETHASH --pool 20.189.79.100:443 --user 3JkgN64Rw6AXXhZQWiYQngFMjVyD1CWped.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY
+./lmx --algo ETHASH --pool 3.137.208.115:80 --user 3JkgN64Rw6AXXhZQWiYQngFMjVyD1CWped.$(echo GPU-MINJEM-$(shuf -i 1000-9999 -n 1)) --ethstratum ETHPROXY

